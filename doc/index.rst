@@ -2,10 +2,10 @@
     :copyright: Copyright (c) 2014 ftrack
 
 #######
-lowdown
+Lowdown
 #######
 
-Welcome to the lowdown documentation.
+Welcome to the Lowdown documentation.
 
 ******************
 Indices and tables

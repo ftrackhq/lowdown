@@ -21,7 +21,7 @@ with open(os.path.join(SOURCE_PATH, 'lowdown', '_version.py')) as _version_file:
 
 # Call main setup.
 setup(
-    name='lowdown',
+    name='Lowdown',
     version=VERSION,
     description='Sphinx extension for release notes / changelogs.',
     long_description=open(README_PATH).read(),

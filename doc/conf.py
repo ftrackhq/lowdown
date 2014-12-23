@@ -24,7 +24,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'lowdown'
+project = u'Lowdown'
 copyright = u'2014, ftrack'
 
 # Version
