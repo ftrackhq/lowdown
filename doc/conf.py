@@ -1,10 +1,17 @@
 # :coding: utf-8
 # :copyright: Copyright (c) 2014 ftrack
 
-'''lowdown documentation build configuration file.'''
+'''Lowdown documentation build configuration file.'''
 
 import os
 import re
+
+import sys
+
+# Inject this package source to allow use for building this projects changelog.
+sys.path.insert(
+    0, os.path.join(os.path.dirname(__file__), '..', 'source')
+)
 
 # -- General ------------------------------------------------------------------
 
@@ -13,9 +20,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode'
+    'sphinx.ext.viewcode',
+    'lowdown'
 ]
-
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -66,7 +73,7 @@ html_copy_source = True
 
 # -- Autodoc ------------------------------------------------------------------
 
-autodoc_default_flags = ['members', 'undoc-members', 'inherited-members']
+autodoc_default_flags = ['members', 'undoc-members']
 autodoc_member_order = 'bysource'
 
 
@@ -81,8 +88,14 @@ def autodoc_skip(app, what, name, obj, skip, options):
 # -- Intersphinx --------------------------------------------------------------
 
 intersphinx_mapping = {
-    'python': ('http://docs.python.org/', None)
+    'python': ('http://docs.python.org/', None),
+    'arrow': ('http://crsmithdev.com/arrow/', None)
 }
+
+# -- Lowdown ------------------------------------------------------------------
+
+lowdown_release_link = 'https://bitbucket.org/ftrack/lowdown/commits/tag/{value}'
+lowdown_changeset_link = 'https://bitbucket.org/ftrack/lowdown/commits/{value}'
 
 
 # -- Setup --------------------------------------------------------------------
