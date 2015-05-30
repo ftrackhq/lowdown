@@ -5,6 +5,15 @@
 Releases
 ########
 
+.. release:: 0.1.1
+    :date: 2015-05-30
+
+    .. change:: change
+        :tags: documentation
+
+        Update documentation to reflect that package is now installable from
+        PyPi.
+
 .. release:: 0.1.0
     :date: 2015-01-06
 

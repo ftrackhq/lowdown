@@ -11,11 +11,7 @@ Installing
 
 Installation is simple with `pip <http://www.pip-installer.org/>`_::
 
-    pip install git+https://bitbucket.org/ftrack/lowdown.git
-
-.. note::
-
-    This project is not yet available on PyPi.
+    pip install lowdown
 
 Building from source
 ====================
