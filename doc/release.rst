@@ -5,6 +5,13 @@
 Releases
 ########
 
+.. release:: 0.1.2
+    :date: 2017-04-28
+
+    .. change:: fixed
+
+        Lists are not properly when included in a change directive.
+
 .. release:: 0.1.1
     :date: 2015-05-30
 
