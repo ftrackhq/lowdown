@@ -22,7 +22,7 @@
     list-style: outside none none;
 }
 
-.lowdown-release ul.lowdown-change-list li {
+.lowdown-release ul.lowdown-change-list > li {
     list-style: outside none none;
     position: relative;
     margin: 0;
