@@ -278,7 +278,7 @@ def copy_stylesheet(app, exception):
 
     source = pkgutil.get_data('lowdown', 'lowdown.css')
     target = os.path.join(app.builder.outdir, '_static', 'lowdown.css')
-    with open(target, 'w') as file_object:
+    with open(target, 'wb') as file_object:
         file_object.write(source)
 
 
