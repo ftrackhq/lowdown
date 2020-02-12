@@ -5,6 +5,12 @@
 Releases
 ########
 
+.. release:: Upcoming
+
+    .. change:: fixed
+
+        Copy stylesheet breaks on python3.
+
 .. release:: 0.1.2
     :date: 2017-04-28
 
