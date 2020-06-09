@@ -38,6 +38,12 @@ setup(
     author_email='support@ftrack.com',
     license='Apache License (2.0)',
     packages=find_packages(SOURCE_PATH),
+    classifiers=[
+        'License :: OSI Approved :: Apache Software License',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3'
+    ],
     package_dir={
         '': 'source'
     },
@@ -45,11 +51,13 @@ setup(
         'lowdown': ['*.css']
     },
     setup_requires=common_requirements + [
-        'sphinx >= 1.2.2, < 2',
+        'sphinx >= 1.2.2, < 4',
         'sphinx_rtd_theme >= 0.1.6, < 1'
     ],
     install_requires=common_requirements,
     tests_require=[
     ],
-    zip_safe=False
+    zip_safe=False,
+    python_requires=">=2.7, <4.0",
+    
 )
