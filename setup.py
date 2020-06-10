@@ -51,7 +51,7 @@ setup(
         'lowdown': ['*.css']
     },
     setup_requires=common_requirements + [
-        'sphinx >= 1.2.2, < 4',
+        'sphinx >= 1.8.5, < 4',
         'sphinx_rtd_theme >= 0.1.6, < 1'
     ],
     install_requires=common_requirements,

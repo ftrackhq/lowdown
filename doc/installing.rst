@@ -53,5 +53,5 @@ Dependencies
 Additional For building
 -----------------------
 
-* `Sphinx <http://sphinx-doc.org/>`_ >= 1.2.3, < 4
+* `Sphinx <http://sphinx-doc.org/>`_ >= 1.8.5, < 4
 * `sphinx_rtd_theme <https://github.com/snide/sphinx_rtd_theme>`_ >= 0.1.6, < 1
