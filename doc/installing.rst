@@ -46,12 +46,12 @@ Then view in your browser::
 Dependencies
 ============
 
-* `Python <http://python.org>`_ >= 2.6, < 3
+* `Python <http://python.org>`_ >= 2.7, < 4
 * `docutils <http://docutils.sourceforge.net/>`_ >= 0.12, < 1',
 * `arrow <http://crsmithdev.com/arrow/>`_ >= 0.4.4, < 1'
 
 Additional For building
 -----------------------
 
-* `Sphinx <http://sphinx-doc.org/>`_ >= 1.2.3, < 2
+* `Sphinx <http://sphinx-doc.org/>`_ >= 1.8.5, < 4
 * `sphinx_rtd_theme <https://github.com/snide/sphinx_rtd_theme>`_ >= 0.1.6, < 1
