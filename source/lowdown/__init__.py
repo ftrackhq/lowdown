@@ -268,7 +268,7 @@ def depart_change_node_html(self, node):
 
 def add_stylesheet(application):
     '''Add default stylesheet to *application*.'''
-    application.add_stylesheet('lowdown.css')
+    application.add_css_file('lowdown.css')
 
 
 def copy_stylesheet(app, exception):
