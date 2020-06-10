@@ -46,7 +46,7 @@ Then view in your browser::
 Dependencies
 ============
 
-* `Python <http://python.org>`_ >= 2.6, < 4
+* `Python <http://python.org>`_ >= 2.7, < 4
 * `docutils <http://docutils.sourceforge.net/>`_ >= 0.12, < 1',
 * `arrow <http://crsmithdev.com/arrow/>`_ >= 0.4.4, < 1'
 
