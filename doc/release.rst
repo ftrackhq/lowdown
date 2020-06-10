@@ -5,7 +5,7 @@
 Releases
 ########
 
-.. release::  0.2.0
+.. release:: 0.2.0
     :date: 2020-06-10
 
     .. change:: new
