@@ -6,10 +6,11 @@ Releases
 ########
 
 .. release:: 0.2.1
+    :date: 2021-04-21
 
     .. change:: change
 
-        Limit docutils to < 0.17
+        Limit docutils to < 0.17 to avoid breaking with sphinx_rtd_theme.
 
 .. release:: 0.2.0
     :date: 2020-06-10
