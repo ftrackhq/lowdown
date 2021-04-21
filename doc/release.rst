@@ -5,6 +5,12 @@
 Releases
 ########
 
+.. release:: 0.2.1
+
+    .. change:: change
+
+        Limit docutils to < 0.17
+
 .. release:: 0.2.0
     :date: 2020-06-10
 

@@ -21,7 +21,7 @@ with open(os.path.join(SOURCE_PATH, 'lowdown', '_version.py')) as _version_file:
 
 # Common common_requirements.
 common_requirements = [
-    'docutils >= 0.11, < 1',
+    'docutils >= 0.11, < 0.17',
     'arrow >= 0.4.4, < 1'
 ]
 
@@ -51,7 +51,7 @@ setup(
         'lowdown': ['*.css']
     },
     setup_requires=common_requirements + [
-        'sphinx >= 1.8.5, < 4',
+        'sphinx >= 1.8.5, < 6',
         'sphinx_rtd_theme >= 0.1.6, < 1'
     ],
     install_requires=common_requirements,
@@ -59,5 +59,4 @@ setup(
     ],
     zip_safe=False,
     python_requires=">=2.7, <4.0",
-    
 )
