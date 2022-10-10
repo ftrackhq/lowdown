@@ -6,4 +6,4 @@ information.
 ## Documentation
 
 Full documentation, including installation and setup guides, can be
-found at <http://lowdown.rtd.ftrack.com/en/latest/>
+found at https://lowdown.readthedocs.io/en/latest/
